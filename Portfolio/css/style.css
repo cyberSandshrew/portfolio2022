@@ -1,0 +1,222 @@
+/* Jerry French , file-style.css*/
+
+body {
+
+		/* background image */
+        background-image: linear-gradient(to bottom, rgba(172, 210, 172,1), rgb(9, 109, 9));
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-attachment: fixed;
+
+/*text*/
+	text-align: center;
+	color: rgb(0, 0, 77);
+	font-family: Courgette, sans-serif, ariel;
+	font-size: 100%
+}
+
+.card{
+	background-image: linear-gradient(to bottom, rgba(172, 210, 172,1), rgb(9, 109, 9));
+	
+}
+
+.btn{
+	color: #0e2c4c;
+}
+
+li{
+	font-size: 150%;
+}
+img { 
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	/* image center */
+	margin-left: auto;
+    margin-right: auto;
+	
+	}
+.jumbotron{
+    	/* background image */
+	background-image: linear-gradient(to bottom, rgba(172, 198, 210,1), rgba(0,0,0,1));
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	
+	border-style: double;
+	border-width: 12px;
+	
+	font-family: Roboto, sans-serif, ariel;
+	font-size: 1.5em;
+	
+	padding-top: 5%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	
+	margin: auto;
+	width: fit-content;
+	border-radius: 90%;
+
+}
+
+ul{
+	width:fit-content;
+	margin:auto;
+	text-align:left;
+}
+
+#profile{
+	height: 400px;
+}
+
+#link, figcaption{
+	
+	font-size: 150%;
+}
+#icon{
+ 
+	animation: moveIcon 5s linear 2s infinite alternate;
+}
+@keyframes moveIcon {
+	0%   {transform: rotate(0deg);}
+	25%  {transform: rotate(25deg);}
+	50%  {transform: rotate(180deg);}
+	75%  {transform: rotate(360eg);}
+	100% {transform: rotate(580deg);}
+
+}
+
+footer{
+
+	/* background image */
+	background-image: linear-gradient(to bottom, rgba(210, 172, 172,1), rgba(172, 210, 172,1));
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	
+	border-style: double;
+	border-width: 12px;
+	
+	float: bottom;	
+}
+
+#Contact{
+	border-style: double;
+	border-width: 12px;
+	padding: 10px;
+}
+
+
+
+#gmap_canvas{
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	/* image center */
+	margin-left: auto;
+    margin-right: auto;
+	}
+nav{
+    	/* background image */
+	background-image: linear-gradient(to bottom, rgb(76, 126, 150), rgba(0,0,0,1));
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+
+    border-style: solid;
+	border-width: 12px;
+   }
+
+
+
+   table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    animation: fadeIn 5000ms linear;
+}
+
+table td, table th{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+h1, h2, h3, h4,   button{
+    text-transform: uppercase;
+    text-align: center;
+	
+
+}
+
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@media screen and (max-width:600px){
+    table{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    table{
+        width: 75%;
+    }
+    
+}
+
+#js{
+	border: double;
+	padding: 8px;
+}
+
+#countdown {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #0e2c4c;
+	font-size: 70px;
+	background-color: #b6a0da;
+	border-radius: 75%;
+	
+	padding: 8px;
+	border: double;
+	margin: auto;
+	width: fit-content;
+  }
+  .action-list {
+	
+	gap: 30px;
+	margin-top: 30px;
+	padding: 5px;
+  }
+
+  #blastOff{
+	
+	font-size: 1.5em;
+	padding-bottom: 5%;
+	margin: 1%;
+	
+	border-radius: 90%;
+  }
+
+  .butn{
+	font-size: 1.5em;
+	margin: 1%;
+  }
+
+  #result{
+	font-size: 1.5em;
+	padding-bottom: 5%;
+	margin: 1%;
+  }
+
+  #aboutMe, #interests{
+	border: double;
+	border-width: 12px;
+	min-height: 450px;
+  }
+
+  
